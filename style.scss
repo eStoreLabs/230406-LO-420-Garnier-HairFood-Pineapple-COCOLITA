@@ -149,7 +149,7 @@ $padding--XXL: 6rem;
 
 #es-RC-container {
   font-family: $ff--montserrat;
-  max-width: 999px;
+  max-width: 1300px;
   margin: auto;
   //reset start
   *,
@@ -688,9 +688,11 @@ $padding--XXL: 6rem;
       margin-bottom: -80px;
       &__bg {
         background-image: url("#{$file-path}bg-routine#{$img-format}");
-        background-size: contain;
+        background-size: 82%;
         background-repeat: no-repeat;
+        background-position: center top;
         padding-top: $padding--L;
+        padding-inline: $padding--XXL;
       }
       &__header {
         background-image: unset;

@@ -9,7 +9,7 @@
 }
 #es-RC-container {
   font-family: "Montserrat", "DejaVu Sans", "Verdana", sans-serif;
-  max-width: 999px;
+  max-width: 1300px;
   margin: auto;
 }
 #es-RC-container *,
@@ -698,9 +698,11 @@
   }
   #es-RC-container .es-routine__bg {
     background-image: url("./img/bg-routine.png");
-    background-size: contain;
+    background-size: 82%;
     background-repeat: no-repeat;
+    background-position: center top;
     padding-top: 2rem;
+    padding-inline: 6rem;
   }
   #es-RC-container .es-routine__header {
     background-image: unset;
