@@ -529,7 +529,7 @@ $padding--XXL: 6rem;
     }
     &__img-container {
       overflow: hidden;
-      max-width: 300px;
+      //max-width: 300px;
       margin: 0 auto $padding--L auto;
       img {
         scale: 1;
@@ -749,6 +749,7 @@ $padding--XXL: 6rem;
         width: 100%;
       }
     }
+    
   }
 }
 

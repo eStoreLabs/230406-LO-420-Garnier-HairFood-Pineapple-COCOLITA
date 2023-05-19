@@ -505,7 +505,6 @@
 }
 #es-RC-container .es-cross__img-container {
   overflow: hidden;
-  max-width: 300px;
   margin: 0 auto 2rem auto;
 }
 #es-RC-container .es-cross__img-container img {
